@@ -34,11 +34,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto  flex justify-between items-center">
           <div className="flex items-center gap-3">
             <Image
-              src={"/Price-Sentry-Logo.png"}
+              src={"/Price Sentry Logo.png"}
               alt="Price Sentry Logo"
-              width={600}
-              height={200}
-              className="h-20 w-auto"
+              width={900}
+              height={900}
+              className="h-40 w-auto"
             />
           </div>
 
