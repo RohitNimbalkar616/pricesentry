@@ -15,7 +15,7 @@ export async function POST(request) {
     // Use service role to bypass RLS
     const supabase = createClient(
       process.env.NEXT_PUBLIC_SUPABASE_URL,
-      process.env.SUPABASE_SERVICE_ROLE_KEY,
+      process.env.NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY,
     );
 
     const { data: products, error: productsError } = await supabase
@@ -109,3 +109,5 @@ export async function GET() {
     message: "Price check endpoint is working. Use POST to trigger.",
   });
 }
+
+// curl -X POST https://getpricesentry.vercel.app/api/cron/check-prices -H "Authorization: Bearer d6d62ccb7e75d1f65ea6fdb8cdacf2ca6fcf399dd9f476a9b64e6b02a21fe75d"
