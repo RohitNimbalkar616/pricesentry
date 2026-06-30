@@ -1,10 +1,10 @@
 # DealDrop - Smart Product Price Tracker
----
+
 [Live link](https://getpricesentry.vercel.app/)
 Track product prices across e-commerce sites and get alerts on price drops. Built with Next.js, Firecrawl, and Supabase.
 
 ## 🎯 Features
----
+
 - 🔍 Track Any Product - Works with Amazon, Zara, Walmart, and more
 - 📊 Price History Charts - Interactive graphs showing price trends over time
 - 🔐 Google Authentication - Secure sign-in with Google OAuth
@@ -12,7 +12,7 @@ Track product prices across e-commerce sites and get alerts on price drops. Buil
 - 📧 Email Alerts - Get notified when prices drop via Resend
 
 ## 🛠️ Tech Stack
----
+
 - Next.js 16 - React framework with App Router
 - Firecrawl - Web data extraction API
  -- Handles JavaScript rendering
@@ -30,7 +30,7 @@ Track product prices across e-commerce sites and get alerts on price drops. Buil
 - Tailwind CSS - Styling
 
 ## 📋 Prerequisites
----
+
 Before you begin, ensure you have:
 
 - Node.js 18+ installed
@@ -40,7 +40,7 @@ Before you begin, ensure you have:
 - Google OAuth credentials from [Google Cloud Console](https://console.cloud.google.com/)
 
 ## 🚀 Setup Instructions
----
+
 ### 1. Clone and Install
 
 ```
@@ -224,7 +224,7 @@ node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 Open http://localhost:3000
 
 ## 📦 Deployment
----
+
 
 ### Deploy to Vercel
 1. ***Install Vercel CLI*** (optional)
@@ -277,7 +277,7 @@ $$;
 Add your Vercel domain to Google Cloud Console authorized redirect URIs.
 
 ## 🔍 How It Works
----
+
 
 ### User Flow
 1. User adds product - Paste any e-commerce URL on the homepage
@@ -306,7 +306,7 @@ Firecrawl solves the hard problems of web scraping:
 No need to maintain brittle, site-specific scrapers!
 
 ## 📁 Project Structure
----
+
 ```
 dealdrop/
 ├── app/
@@ -343,7 +343,7 @@ dealdrop/
 ```
 
 ## 🧪 Testing
----
+
 
 ### Test with cURL
 ```
@@ -368,7 +368,7 @@ LIMIT 10;
 ```
 
 ## 🎨 Customization
----
+
 
 ### Change Cron Schedule
 Edit the cron expression in `002_setup_cron.sql`:
@@ -396,7 +396,7 @@ prompt: "Extract product name, price, currency, image URL, brand, rating, and av
 ```
 
 ## 🐛 Troubleshooting
----
+
 
 ### Products not found in cron job
 - Make sure `SUPABASE_SERVICE_ROLE_KEY` is set in Vercel
@@ -418,7 +418,7 @@ prompt: "Extract product name, price, currency, image URL, brand, rating, and av
 - Check Supabase logs for errors
 
 ## 🤝 Contributing
----
+
 
 Contributions are welcome! Please follow these steps:
 
@@ -429,11 +429,7 @@ Contributions are welcome! Please follow these steps:
 5. Open a Pull Request
 
 ## 📄 License
----
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
----
----
-Built with ❤️ by RoadsideCoder using Next.js, Firecrawl, and Supabase
 
