@@ -1,4 +1,4 @@
-# DealDrop - Smart Product Price Tracker
+# Price Sentry - Smart Product Price Tracker
 
 [Live link](https://getpricesentry.vercel.app/)
 Track product prices across e-commerce sites and get alerts on price drops. Built with Next.js, Firecrawl, and Supabase.
